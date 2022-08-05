@@ -556,7 +556,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.socials p {
+.socials p, 
+.newsletter p{
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -593,6 +594,65 @@ body {
 .a-social-item:focus {
   background-color: #2196f3;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.newsletter {
+  padding-left: 78px;
+}
+.newsletter-input{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background: none;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+padding: 14px 88.333px 14px 15px;
+}
+
+.newsleter-button{
+    margin-left: 12px;
+  background-color: var(--main-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: none;
+
+  padding: 10px 24px 10px 42px ;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+display: inline-flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+
+fill: white;
+}
+
+.newsletter-svg{
+padding-left: 24px;
+display: flex;
+}
+
+.newsleter-button:hover,
+.newsleter-button:focus {
+  cursor: pointer;
+  background-color: white;
+  color: var(--main-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: var(--main-color);
+}
+
+.newsleter-button:active {
+  background-color: var(--main-color);
+  color: white;
+fill: white;
 }
 
 /* END FOOTER  */

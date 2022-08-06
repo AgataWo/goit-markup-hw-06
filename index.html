@@ -434,16 +434,25 @@
                     placeholder="Wprowadź tekst"></textarea>
             </div>
             <div class="form-item checkbox">
-                <label><input type="checkbox" name="potwierdź akceptację regulaminu i polityki prywatności"> Oświadczam
-                    iż akceptuję <a class="checkbox-a" href="">Regulamin</a> i <a class="checkbox-a" href="">Politykę
-                        Prywatności</a>.</label>
+                <div class="checkbox-div">
+                    <input class="checkbox-input" type="checkbox" name="potwierdź akceptację regulaminu i polityki prywatności">
+
+                    <svg class="checkbox-svg" width='11' height="8">
+                        <use href="images/icons.svg#icon-Vectorfajka"></use>
+                    </svg>
+                </div>
+                <label><span class="checkbox-text"> Oświadczam
+                        iż akceptuję <a class="checkbox-a" href="">Regulamin</a> i <a class="checkbox-a"
+                            href="">Politykę
+                            Prywatności</a>.</span></label>
+
             </div>
+
             <div class="form-button-container">
-            <button type="submit" class="form-button">Wyślij</button></div>
+                <button type="submit" class="form-button">Wyślij</button>
+            </div>
 
-        </div>
-
-        <script src="./js/modal.js"></script>
+            <script src="./js/modal.js"></script>
 
 </body>
 

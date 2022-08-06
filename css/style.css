@@ -810,7 +810,7 @@ padding-bottom: 30px;
 
 .checkbox-input{
    position: absolute;
-  /* z-index: 200; */
+  z-index: 200;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

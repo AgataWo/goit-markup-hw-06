@@ -710,10 +710,11 @@ outline: none;
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--main-color);
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 outline: none;
+fill: var(--main-color);
 }
 
 .is-hidden {
@@ -768,7 +769,6 @@ h3 {
 }
 .form-item:nth-child(6){
   position: relative;
-  top: -29px;
   bottom: 0;
 }
 
@@ -886,3 +886,10 @@ align-items: center;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 outline: none;}
+
+.modal-item-text{
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.01em;
+color: #757575;
+}
